@@ -5,6 +5,9 @@ on:
     paths:
       - 'debs/**' # 当 debs/ 下有变更时触发
 
+permissions:
+  contents: write # ✅ 关键！允许 Actions 写入仓库内容
+
 jobs:
   build:
     runs-on: ubuntu-latest
