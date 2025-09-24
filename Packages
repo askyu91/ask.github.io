@@ -1,0 +1,31 @@
+Package: com.huayuarc.jiaotongyhhook.rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/交通银行Hook-Rootless.com.askyu91.jtyh.rootless.deb
+Size: 4320
+MD5sum: 0f70364d463c799716865d577a22af32
+SHA1: 128ce63bca708dfcaac45b1d237aac6704df8659
+SHA256: 7837b31cf7c58e9195d83686b1e42abd92b2b0b48987b6ff05558cf407ba3b4c
+Section: Tweaks
+Description: 屏蔽越狱检测｜需要配合源内插件：Shadow｜使用｜测试版本8.5.0
+Author: Huayuarc <xuanhua880@gmail.com>
+Name: 交通银行 Hook-Rootless
+
+Package: com.huayuarc.yangguanghuishhhook.rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/阳光惠生活Hook-Rootless.com.askyu91.yghsh.rootless.deb
+Size: 4236
+MD5sum: e07a985c7d0f2cea3300784c785ea21d
+SHA1: 00844725a9cea24be7a7268aeddc516069248981
+SHA256: 014fa41ac827b55c8b4b78b24047e0563e832228ef95c6b12dce397f86acd519
+Section: Tweaks
+Description: 去除启动广告｜屏蔽越狱检测
+Author: Huayuarc
+Name: 阳光惠生活 Hook-Rootless
+
