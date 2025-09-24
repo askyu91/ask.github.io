@@ -1,8 +1,0 @@
-Origin: askRepo
-Label: askRepo
-Suite: stable
-Version: 1.0
-Codename: askdev
-Architectures: iphoneos-arm
-Components: main
-Description: Ask Cydia Repo
