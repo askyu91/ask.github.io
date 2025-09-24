@@ -1,16 +1,19 @@
 name: Build Cydia Repo
 
+# 触发器
 on:
   push:
     paths:
-      - 'debs/**' # 当 debs/ 下有变更时触发
+      - 'debs/**' # 当 debs/ 下有变更时自动触发
+  workflow_dispatch: # 手动触发
 
 permissions:
-  contents: write # ✅ 关键！允许 Actions 写入仓库内容
+  contents: write # 允许 Actions 写入仓库
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
@@ -26,8 +29,8 @@ jobs:
 
       - name: Commit and push Packages
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "askyu91"
+          git config user.email "yufanfree@163.com"
           git add Packages Packages.bz2
           git commit -m "Update Packages" || echo "No changes to commit"
           git push
